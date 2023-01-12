@@ -2,9 +2,6 @@
 Python client library for ownCloud
 ==================================
 
-.. image:: https://travis-ci.org/owncloud/pyocclient.svg?branch=master
-    :target: https://travis-ci.org/owncloud/pyocclient
-
 This pure python library makes it possible to connect to an ownCloud instance
 and perform file, share and attribute operations.
 
@@ -71,20 +68,11 @@ Requirements
 Installation
 ============
 
-Automatic installation with pip:
+Installation with pip:
 
 .. code-block:: bash
 
-    $ pip install pyocclient
-
-Manual installation of development version with git:
-
-.. code-block:: bash
-
-    $ pip install requests
-    $ git clone https://github.com/owncloud/pyocclient.git
-    $ cd pyocclient
-    $ python setup.py install
+    $ git clone git+https://github.com/cebel/pyocclient.git
 
 Usage
 =====
