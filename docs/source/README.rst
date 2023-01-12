@@ -72,7 +72,7 @@ Installation with pip:
 
 .. code-block:: bash
 
-    $ git clone git+https://github.com/cebel/pyocclient.git
+    $ pip install git+https://github.com/cebel/pyocclient.git
 
 Usage
 =====
